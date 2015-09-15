@@ -10,8 +10,4 @@ def get_resolvers():
 	except IOError as error:
 		return error.strerror
 
-<<<<<<< HEAD
 print get_resolvers()
-=======
-print get_resolvers()
->>>>>>> f0b465f1fb37c2eb057577d0021d46c9e041f20f
